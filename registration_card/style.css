@@ -1,0 +1,80 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(0, 0, 255, 0.753);
+}
+
+.dflex {
+  display: flex;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3em;
+  line-height: 0;
+  padding: 5px 0;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 1.2em;
+  margin: 4px 3px;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4776e6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #e6bc47 0%, #a9e954 51%);
+}
+
+button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#regCard {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-bottom: 4em;
+}
+
+.card {
+  width: 40%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 3% 0;
+}
+
+.formLabel {
+  font-weight: 800;
+  margin-left: 2%;
+  font-size: 1.2em;
+}
+
+.formCont {
+  gap: 1.3em;
+  margin-top: 1em;
+}
+
+.formItem {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputItem {
+  padding: 10px 20px;
+  border: 1px solid rgba(189, 176, 176, 0.712);
+  border-radius: 10px;
+}
+
+.radioBox {
+  gap: 1em;
+  margin: 1% 0 0 1%;
+}
